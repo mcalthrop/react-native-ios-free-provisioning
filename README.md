@@ -86,7 +86,7 @@ Once you have signed in, go back to **Team** in the **Signing** section, and sel
 
 Select the `ProjectNameTests` target:
 
-<img src="ProjectNameTests.png" height="150">
+<img src="./images/ProjectNameTests.png" height="150">
 
 Under the **Signing** section, next to **Team**, select **Your Name (Personal Team)**.
 
