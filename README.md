@@ -58,7 +58,7 @@ Under **Device**, select your iPhone.
 
 ## Select the project
 
-<img src="./ProjectName.png" height="100">
+<img src="./images/ProjectName.png" height="100">
 
 ## Change the Bundle Identifier
 
@@ -66,7 +66,7 @@ Go to the **General** tab.
 
 Under **Identity**, change the **Bundle Identifier** from `org.reactjs.native.example.ProjectName` to something unique, like your domain name.
 
-<img src="./Identity.png" height="200">
+<img src="./images/Identity.png" height="200">
 
 So if your domain name is `example.com`, change the value to `com.example.ProjectName`.
 
@@ -74,13 +74,13 @@ So if your domain name is `example.com`, change the value to `com.example.Projec
 
 The **Signing** section will look like this:
 
-<img src="./Signing-unsigned.png" height="200">
+<img src="./images/Signing-unsigned.png" height="200">
 
 Next to **Team**, click the **Add Account...** button, and sign in with your Apple ID when prompted.
 
 Once you have signed in, go back to **Team** in the **Signing** section, and select **Your Name (Personal Team)**. If you have correctly set the Bundle Identifier in the previous step, the **Signing** section will now look like this:
 
-<img src="./Signing-signed.png" height="140">
+<img src="./images/Signing-signed.png" height="140">
 
 ## Manage signing for `ProjectNameTests`
 
@@ -90,19 +90,19 @@ Select the `ProjectNameTests` target:
 
 Under the **Signing** section, next to **Team**, select **Your Name (Personal Team)**.
 
-<img src="./ProjectNameTests-signed.png" height="280">
+<img src="./images/ProjectNameTests-signed.png" height="280">
 
 ## Build and Run
 
 Press the Play button at top left:
 
-<img src="./Build-and-run.png" height="60">
+<img src="./images/Build-and-run.png" height="60">
 
 On first run, this will take a while.
 
 Once built, you will see a modal dialog like this in Xcode:
 
-<img src="./Could-not-launch-ProjectName.png" height="100">
+<img src="./images/Could-not-launch-ProjectName.png" height="100">
 
 Click **Ok**.
 
@@ -110,7 +110,7 @@ Click **Ok**.
 
 Unlock your iPhone. You will see the `ProjectName` app now installed on your iPhone. If you open it, you will receive a message like this:
 
-<img src="./Untrusted-Developer.png" height="170">
+<img src="./images/Untrusted-Developer.png" height="170">
 
 So open the **Settings** app and navigate to **General** > **Device Management**, and select your developer app to trust it.
 
