@@ -28,7 +28,7 @@ If you don't already have a React Native project to work from, create one with y
 
 ```sh
 $ react-native init ProjectName
-This will walk you through creating a new React Native project in /private/tmp/ProjectName
+This will walk you through creating a new React Native project in ~/ProjectName
 Using yarn v1.9.4
 Installing react-native...
 ```
